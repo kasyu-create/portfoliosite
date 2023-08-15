@@ -25,10 +25,10 @@
 
       <nav class="menu open flex">
         <ul class="flex hover_blue">
-          <li><a href="#section1">About me</a></li>
-          <li><a href="#section2">Ruby on Rails</a></li>
-          <li><a href="#section3">チーム開発</a></li>
-          <li><a href="#section4">Others</a></li>
+          <li><a href="#section1">エンジニアとして</a></li>
+          <li><a href="#section2">簡単な経歴</a></li>
+          <li><a href="#section3">Youtuberとして</a></li>
+          <li><a href="#section4">最後に</a></li>
         </ul>
       </nav>
 
@@ -43,10 +43,10 @@
               <p class="profile_top">カテゴリ</p>
             </div>
             <ul class="hover_blue">
-              <li><a href="#section1">About me</a></li>
-              <li><a href="#section2">Ruby on Rails</a></li>
-              <li><a href="#section3">チーム開発</a></li>
-              <li><a href="#section4">Others</a></li>
+              <li><a href="#section1">エンジニアとして</a></li>
+              <li><a href="#section2">簡単な経歴</a></li>
+              <li><a href="#section3">Youtuberとして</a></li>
+              <li><a href="#section4">最後に</a></li>
             </ul>
           </div>
         </div>
@@ -54,12 +54,15 @@
     </header>
 
     <section class="text-center pt_70" id="section1">
-      <div class="front_text">About me<h2 class="back_text">About me</h2></div>
+      <div class="front_text">エンジニアとして<h2 class="back_text">エンジニアとして</h2></div>
       <div class="container">
 
         <div class="left_space">
+          <h4>大学で落語していた時</h4>
           <img src="image/IMG_3770.JPG" class="profile_image" alt="">
-          <img src="image/IMG_3773.PNG" class="profile_image" alt="">
+          <h4>前職在籍時（一番手前です）</h4>
+          <img src="image/IMG_3774.jpeg" class="profile_image" alt="">
+          
           <div class="sns">
             <ul class="text_center">
               <li><a href="https://twitter.com/m75cCMbYv5LEsO8" class="twitter" target="_blank">Twitter</a></li>
@@ -78,7 +81,7 @@
             <div class="info">
               <h3 class="top_info">基本情報</h3>
               東野　陽生（ひがしの　はるき）<br>
-              1995年5月21日生まれ (25歳)<br>
+              1995年5月21日生まれ (28歳)<br>
               大阪府堺市出身
             </div>
           </section>
@@ -87,7 +90,90 @@
               <i class="fas fa-walking"></i>
             </div>
             <div class="info">
-              <h3 class="top_info">経歴</h3>
+              <h3 class="top_info">エンジニアとして</h3>
+              <ul>
+                <li>
+                  ・２０２０年１０月：株式会社ゼロイチ入社（正社員）<br>
+                  ・勤務期間　　　　：２０２０年１０月〜２０２２年１２月
+                  <div class="indent">
+                    株式会社ゼロイチにて<span class="red-bold">バックエンドエンジニアとして２年以上働いていました。</span>会社に常駐しながら受託会社として保守運用をメインに業務をしていました。<br>
+                    会社では<span class="red-bold">PHPを使ったバックエンド処理</span>やデータ周りを扱う事も多かったので<span class="red-bold">SQLを使ったデータの抽出や管理</span>が多かったです。<br>
+                    チームの規模としては会社のバックエンドエンジニアは４人チームで、Gitを使ってコード管理を行なっていました。
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="flex">
+            <div class="icon">
+              <i class="far fa-thumbs-up"></i>
+            </div>
+            <div id="future" class="info">
+              <h3 class="top_info">携わった主なプロジェクト</h3>
+              <ul>
+                <li>
+                  ・プロジェクト　　　　: 某アパレルサイト３社の新規立ち上げをし、その後に運用保守を行う<br>
+                  ・チーム情報　　　　　: リーダー１人　フロントエンドエンジニア２名　バックエンドエンジニア２名
+                  <div class="indent">
+                  主な開発・実装内容A<br>
+                      【どのような機能の開発・実装か】<br>
+                      お客様から頂いた<span class="red-bold">商品情報や前サイトの顧客情報や受注情報などをDBに新規立ち上げ前に入れる。</span>そしてその後の保守運用を行う。<br><br>
+                      【課題・問題点】<br>
+                      事前に要件定義していた商品や顧客に受注の<span class="red-bold">DBのカラムと頂いたCSVファイルの情報では内容がズレていた。</span>なのでこちら側で準備していたバッチでDBに顧客や商品情報などを入れようとしても取り込めずに、<span class="red-bold">エラーが発生する状況になる事が事前に発覚した。</span><br>
+                      問題となっていた部分を解消し、その後にDBに取り込める事が出来たが、<span class="red-bold">必要なDBのカラムに数値が入っていない問題が２箇所発生</span>した。<br><br>
+                      【打ち手・使用した技術】<br>
+                      <span class="red-bold">頂いたCSVファイルで必要な項目を精査し、不必要な項目を排除した。</span>足りないカラムは上司と相談しながら、必要な部分は先方に追加で提出をしてもらった。またそれでもエラーが発生していた為に、バッチで実行されるファイルのコードを見直し、エラーの修正を行なった。エラー内容はハイフンの有無や、必要の無い空白によるものでした。<br>
+                      カラムに必要な数値が入っていない問題は、<span class="red-bold">他のテーブルと内部結合を行い必要な項目を入れる</span>ように修正を行なった。
+                  </div>
+                  <br>
+                  <div class="indent">
+                  主な開発・実装内容B<br>
+                    【自分が携わった開発】<br>
+                    <span class="red-bold">Lookbook</span>（メーカーが新商品のリリースに合わせてシーズンごとに用意している商品カタログです）<span class="red-bold">を管理画面で登録出来るようにし、フロント画面でも表示出来る</span>ようにする。<br><br>
+                    【課題・問題点】<br>
+                    <span class="red-bold">上司からフロントエンジニアの社員にもバックエンドの作業を教えて欲しい</span>と言われたので、
+                    上記の開発を同僚のフロントエンジニアが開発完了を納期までに出来るようにサポートしていましたが、やはり慣れないバックエンド作業だったので、
+                    こちらが作業の概要や流れを説明しても、<span class="red-bold">フロントエンジニアの社員の方が理解が追いついていない状況でした。</span><br><br>
+                    【打ち手・使用した技術】<br>
+                    そこで作業内容をざっくり説明するのではなく、<span class="red-bold">全てを手取り足取り伝えるようにやり方を変えました。</span>
+                    CRUD処理の方法やバリデーションの実装、モデルから必要なDBの情報を取り、フロント側に画像や文言を出す方法などをつきっきりで説明してサポートし、
+                    全て理解して頂けなくても、<span class="red-bold">一度完走させる事を目標に自分の全ての知見を伝えました。</span>
+                    結果的にはなんとなくバックエンド業務を理解して頂けるようにはなりました。しかしその後も同じような業務を繰り返しているサポートしている内に、
+                    <span class="red-bold">その方はバックエンド側もある程度精通された貴重な人材となっていました。</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="text-center back_dark padding_top" id="section2">
+      <div class="front_text">簡単な経歴<h2 class="back_text">簡単な経歴</h2></div>
+      <div class="container">
+
+        <div class="left_space">
+          <h4>大学時に取り上げられた新聞</h4>
+          <img src="image/IMG_3773.PNG" class="profile_image" alt="">
+          
+          <h4>独学時のポートフォリオ</h4>
+          <video autoplay muted playsinline controls src="image/portfolio-site.mov" class="capture_video"></video>
+
+          <h4>プログラミング独学時の仲間と勉強会</h4>
+          <img src="image/mokumoku.jpeg" class="profile_image" alt="もくもく">
+        </div>
+
+        <div class="right_space">
+
+          <section class="flex">
+            <div class="icon">
+              <i class="fas fa-chalkboard"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">大学入学以降</h4>
               <ul>
                 <li>
                   ・2014年4月　：立命館大学文学部入学
@@ -96,6 +182,17 @@
                     学内での公演のみならず、京都を中心に大阪・滋賀など関西圏で出張公演も部で行っていました。<span class="red-bold">年間150件〜200件</span>の出張公演の依頼を頂き、京都新聞にも取り上げて頂きました。
                   </div>
                 </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="flex">
+            <div class="icon">
+              <i class="far fa-lightbulb"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">王寺町役場に就職</h4>
+              <ul>
                 <li>
                   ・2018年3月 ：立命館大学文学部卒業<br>
                   ・同年に奈良県王寺町役場に就職
@@ -116,149 +213,16 @@
               </ul>
             </div>
           </section>
-          <section class="flex">
-            <div class="icon">
-              <i class="far fa-hand-point-up"></i>
-            </div>
-            <div class="info">
-              <h3 class="top_info">学習したプログラミングスキル</h3>
-              <div class="indent">
-              <span class="red-bold">2020年3月1日から現在まで継続して学習を続けています。</span>
-              <ul>
-                <li>・HTML, CSS, SCSS</li>
-                <li>・PHP</li>
-                <li>・Ruby, Ruby on Rails</li>
-                <li>・Git, GitHub</li>
-              </ul>
-              ※成果物については下記参照ください
-              </div>
-            </div>
-          </section>
-          <section class="flex">
-            <div class="icon">
-              <i class="fas fa-pen-nib"></i>
-            </div>
-            <div class="info">
-              <h3 class="top_info">なぜ公務員を辞めてまでエンジニアになったのか</h3>
-              <div class="indent">
-                <span class="red-bold">プログラミングを通じてまだまだアナログな社会を変えたい</span>からです。<br>前職を通じて、仕事場だけでなく、社会ではたくさんアナログな事が多いと痛感しました。そんなアナログで苦労している方々にプログラミングを通して問題を解決したいと感じた為、エンジニアになりたいと感じました。
-              </div>
-            </div>
-          </section>
-          <section class="flex">
-            <div class="icon">
-              <i class="far fa-thumbs-up"></i>
-            </div>
-            <div id="future" class="info">
-              <h3 class="top_info">自己PR</h3>
-              <section>
-                <h4>1.行動力</h4>
-                <div class="indents">
-                  私には目的を達成する為に動く行動力があります。<br>
-                  ポートフォリオである漫才ネタ作成アプリ（ネタサク）を作る為に、<span class="red-bold">キングオブコントとM-1グランプリ出場</span>しました。興味がある事に対しては、<span class="red-bold">多くの人が尻込みする事もやる行動力</span>があります。<br>
-                  このような目的を達成する為の行動力はエンジニアとして働かせて頂く際にも活きてくると思います。
-                </div>
-              </section>
-              <section>
-                <h4>2.コツコツと努力が出来る</h4>
-                <div class="indents">
-                  私は夢や目標に向かってコツコツと努力が出来ます。<br>
-                  学習した事は<span class="red-bold">アウトプットを心掛け</span>、Qiitaに記事を投稿する他、LT登壇を行って「チーム開発で学んだ事」やもう一方の登壇では、「ポートフォリオの紹介」の発表を行いました。<br>
-                  また、上記とは別イベントの「ポートフォリオ品評会」では、実際に来て頂いた皆さんに私のポートフォリオを使って頂いて、<span class="red-bold">フィードバックを頂いて改善も行いました。</span><br>
-                  そして、Twitterには日々の学習記録を毎日記載しています。<br>
-                  このコツコツと努力出来る所はエンジニアとして働かせて頂く際にも活きてくると思います。
-                </div>
-              </section>
-              <section>
-                <h4>3.ロジカルに問題を解決する力</h4>
-                <div class="indents">
-                  私はロジカルに問題を解決する力があります。その最たる例は<span class="red-bold">ポートフォリオ</span>です。<br><br>
-                  １　問題発見　　　　<br>
-                  お笑いのネタ作りで苦労している<span class="red-bold">友人の手助け</span>をしたい。（自分がネタ作りに苦労した経験もあって）<br><br>
-                  ２　具体解決立案力　<br>
-                  まず、こちらが用意した何種類かのネタのテンプレートからユーザーに１つネタを選択してもらう。<br>
-                  次に、選択したネタはそれぞれのネタによって物語の展開がある。展開に沿って、ボケの選択肢が与えられてユーザーはそれを全て答えると台本が自動で出来る仕組みとする。<br>
-                  最後に、出来上がった台本を自分で修正してオリジナルの台本にユーザーが仕上げていく。<br>
-                  これらによって、<span class="red-bold">ボケを選択するだけで漫才の骨組み（ネタ設定と話の展開）</span>が出来るので、ネタ作りがすごく楽になる。<br>
-                  そして、投稿したネタをみんなが見る事が出来る機能も付ければ、<span class="red-bold">もっと多くの人のネタ作りの参考</span>にもなると考え、機能を追加した。<br>
-                  （下記のポートフォリオのURLよりアプリを見て頂けると幸いです。）<br><br>
-                  ３　実現力　　　　　<br>
-                  プログラミングによってアプリを作成。
-                  また、このアプリを実現する為には、ネタのテンプレートを作るのが私になるので、私自身がネタ作りに詳しくならないといけない。なので私は、<span class="red-bold">初めてM-1とキングオブコント</span>に出場して、ネタを書く技術を磨き、芸人にもネタの相談を行った。<br><br>
-                  ４　提供力　　　　　<br>
-                  ユーザーに提供<span class="red-bold">（30人）</span>＋　<span class="red-bold">現役エンジニア</span>の方々からフィードバック（３名）<br><br>
-                  ５　改善力　　　　　<br>
-                  ユーザーと現役エンジニアから指摘頂いた事の修正。
-                  指摘された個数は<span class="red-bold">約50個</span>ほどですが、<span class="red-bold">全て解決しました。</span>
-                  指摘した頂いた事は概ね下記URLに有ります。
-                  https://github.com/kasyu-create/manzai/issues
-                </div>
-              </section>
-            </div>
-          </section>
-        </div>
-      </div>
-    </section>
-
-
-
-    <section class="text-center back_dark padding_top" id="section2">
-      <div class="front_text">Ruby on Rails<h2 class="back_text">Ruby on Rails</h2></div>
-      <div class="container">
-
-        <div class="left_space">
-          <h4>ネタをサクッと１分で作成。「ネタサク」！</h4>
-          <video autoplay muted playsinline controls src="image/portfolio-site.mov" class="capture_video"></video>
-
-          <h4>ポートフォリオ品評会</h4>
-          <img src="image/mokumoku.jpeg" class="profile_image" alt="もくもく">
-        </div>
-
-        <div class="right_space">
-
-          <section class="flex">
-            <div class="icon">
-              <i class="fas fa-chalkboard"></i>
-            </div>
-            <div class="info">
-              <h4 class="top_info">アプリの概要</h4>
-              <ul>
-                <a href="http://18.183.14.193/" target="_blank" class="blue-link">ネタサク</a>
-                <li>私は大学時代落語研究会に所属していて、よくお笑いのネタを作る時に、「１からネタ作るの難しいなぁ、ネタの設定と展開を誰か考えてくれたら楽やのになぁ」と考えてました。 そこで私は、選択した設定のネタの展開ごとに、ボケを選択するだけで漫才が出来る機能があれば、ネタ作りがすごく楽になると考え、このアプリを作りました。 このアプリがあれば、<span class="red-bold">ネタを作った事がない人でも気軽にネタを作る事が出来ます。</span>
-                </li>
-              </ul>
-            </div>
-          </section>
-
-          <section class="flex">
-            <div class="icon">
-              <i class="far fa-lightbulb"></i>
-            </div>
-            <div class="info">
-              <h4 class="top_info">こだわりポイント</h4>
-              <ul>
-                <li>・１分で漫才のネタが作成出来る</li>
-                <li>・ユーザーが投稿した全ネタ見る事が出来る</li>
-                <li>・実際にアプリを作る事で基礎文法の知識の定着が出来たと実感</li>
-                <li><span class="red-bold">・20人以上の方々にアプリを使って頂き、ご指摘を頂いてリファクタリングや仕様を改善</span></li>
-                <li><a href="https://youtu.be/ayo5iktxQeM" target="_blank" class="blue-link">・このアプリをYoutubeで紹介</a></li>
-                <li>・AWSへデプロイ成功</li>
-
-              </ul>
-            </div>
-          </section>
 
           <section class="flex">
             <div class="icon">
               <i class="fas fa-assistive-listening-systems"></i>
             </div>
             <div class="info">
-              <h4 class="top_info">ユーザーの感想</h4>
-              <ul>
-                <li>・直感的にどのように使うか分かりづらい → トップページに機能が収まるように修正</li>
-                <li>・重複して書かれたコードが多いcontrollerがある。 → リファクタリングして４割コード量削減</li>
-                <li>・Twitterのようにみんなのネタが見られるともっと良い → 見れるように改善</li>
-              </ul>
+              <h4 class="top_info">なぜ公務員を辞めてまでエンジニアになったのか</h4>
+              <div class="indent">
+                <span class="red-bold">プログラミングを通じてまだまだアナログな社会を変えたい</span>からです。<br>前職を通じて、仕事場だけでなく、社会ではたくさんアナログな事が多いと痛感しました。そんなアナログで苦労している方々にプログラミングを通して問題を解決したいと感じた為、エンジニアになりたいと感じました。
+              </div>
             </div>
           </section>
 
@@ -267,8 +231,14 @@
               <i class="fas fa-code"></i>
             </div>
             <div class="info">
-              <h4 class="top_info">ソースコード</h4>
-              <a href="https://github.com/kasyu-create/manzai" class="github blue-link" target="_blank">GitHub</a>
+              <h4 class="top_info">独学時のポートフォリオ</h4>
+              <div class="indents">
+                ユーザーに提供<span class="red-bold">（30人）</span>＋　<span class="red-bold">現役エンジニア</span>の方々からフィードバック（３名）<br>
+                ユーザーと現役エンジニアから指摘頂いた事の修正。
+                指摘された個数は<span class="red-bold">約50個</span>ほどですが、<span class="red-bold">全て解決しました。</span>
+                指摘した頂いた事は概ね下記URLに有ります。<br>
+                <a href="https://github.com/kasyu-create/manzai/issues" class="github" target="_blank" style="text-decoration: underline;">https://github.com/kasyu-create/manzai/issues</a>
+              </div>
             </div>
           </section>
         </div>
@@ -277,15 +247,15 @@
 
 
     <section class="text-center padding_top" id="section3">
-      <div class="front_text">チーム開発（Rails）<h2 class="back_text">チーム開発</h2></div>
+      <div class="front_text">Youtuberとして<h2 class="back_text">Youtuberとして</h2></div>
       <div class="container">
 
         <div class="left_space">
-          <p>ケーキ屋さんのECサイト</p>
-          <video autoplay muted playsinline controls src="image/team-program.mov" class="capture_video"></video>
+          <p>Youtubeアイコン</p>
+          <img src="image/IMG_3776.png" class="profile_image2" alt="Youtubeアイコン">
 
-          <p>LT登壇</p>
-          <img src="image/IMG_3771.PNG" class="profile_image" alt="もくもく">
+          <p>投稿した動画の一部</p>
+          <img src="image/IMG_3775.png" class="profile_image" alt="投稿した動画">
         </div>
 
         <div class="right_space">
@@ -295,15 +265,25 @@
               <i class="fas fa-chalkboard"></i>
             </div>
             <div class="info">
-              <h4 class="top_info">アプリの概要</h4>
-              <p class="red-bold">
-                4人1組による共同開発を経験しました。<br>
-                <br>
-              </p>
+              <h4 class="top_info">突然Youtuberになった訳</h4>
+              <div>
+                <span class="red-bold">周りが弱く自分でもいけるのでは</span>と思ったからです。<br>
+                Youtubeのチャンネル登録者が<span class="red-bold">半年で2.3万人</span><br>
+                Tiktokのフォロワーが<span class="red-bold">1年で1.8万人</span>を達成しました。
+              </div>
+            </div>
+          </section>
+
+          <section class="flex">
+            <div class="icon">
+              <i class="far fa-lightbulb"></i>
+            </div>
+            <div class="info">
+              <h4 class="top_info">Youtuberとして学んだ事</h4>
               <ul>
-                <li>・プログラミングスクールのカリキュラムでチーム開発を経験</li>
-                <li>・メンターさん＋4人チームで共同開発で制作</li>
-                <li>・管理者側の全ページ及びトップページを担当</li>
+                <li>・時流に乗る大切さ</li>
+                <li>・動画編集やサムネイル作成</li>
+                <li>・自分の実力の無さ</li>
               </ul>
             </div>
           </section>
@@ -313,29 +293,15 @@
               <i class="far fa-lightbulb"></i>
             </div>
             <div class="info">
-              <h4 class="top_info">チーム開発で学んだ事</h4>
-              <ul>
-                <li>・話し合う事の大切さ</li>
-                <li>・開発の流れが理解出来た事</li>
-                <li>・人にコードの説明をする時は、なんとなくの理解ではいけないという事</li>
-              </ul>
-            </div>
-          </section>
-
-          <section class="flex">
-            <div class="icon">
-              <i class="far fa-lightbulb"></i>
-            </div>
-            <div class="info">
-              <h4 class="top_info">こだわりポイント</h4>
-              <ul>
-                <li><span class="red-bold">・初対面の方々30名の前でLT登壇をオフラインイベントで行い、「チーム開発で学んだ事」を発表</span></li>
-                <li>・誰かの作業が行き詰まっていた時は、みんなで大丈夫？と声を掛け合ってました</li>
-                <li>・ローカル環境で<span class="red-bold">branch を切って開発，プルリク，コンフリクトの解消の流れを学習</span></li>
-                <li>・WBSを使ったタスク管理。SlackやZoomを使用してメンバーとコミュニケーション。</li>
-                <li>・編集、削除の権限を投稿者だけに</li>
-                <li>  　→Qiita(<a href="https://qiita.com/m75cCMbYv5LEsO8/items/0d44bbb4c1c21a08f49f" target="_blank" class="blue-link">編集、削除の権限を投稿者だけに</a>)</li>
-              </ul>
+              <h4 class="top_info">なぜもう一度エンジニアになったのか</h4>
+              <div>
+                <span class="red-bold">Youtuberとしての目標を達成出来なかった</span>からです。<br>
+                会社を辞めてからの半年間は会社時代よりも必死に試行錯誤を続けてYoutubeの活動をしていましたが、会社員時代の半分ぐらいしか月収として稼げませんでした。<br>
+                <span class="red-bold">目標にしていた半年間で会社員時代の給料を超える</span>という目標を達成出来なかったです。<br>
+                目標を掲げたその日から、<span class="red-bold">達成出来なければ私にYoutuberとしての実力がない事の証明</span>と思っていました。<br>
+                そして<span class="red-bold">達成出来なければエンジニアに戻る</span>事も挑戦する前から決めていました。<br>
+                でも挑戦した事は全く後悔していません。素晴らしい日々でした。
+              </div>
             </div>
           </section>
 
@@ -344,23 +310,32 @@
               <i class="fas fa-code"></i>
             </div>
             <div class="info">
-              <h4 class="top_info">ソースコード</h4>
-              <a href="https://github.com/webcamp-naganocake/naganocake" class="github blue-link" target="_blank">GitHub</a>
+              <h4 class="top_info">チャンネルURL</h4>
+              <a href="https://www.youtube.com/channel/UC57fNg_DVVH3t08Ih1H9QVA" class="icon-youtube red-link" target="_blank">Youtubeチャンネル</a>
+              <div>
+                <br>
+                <ul>
+                  <li>コンテンツ内容</li>
+                  ひろゆきと岡田斗司夫と成田悠輔がポケモン実況をする。<br>
+                  こちらのポケモンの技選択や相手プレイヤーの行動に対して、ひろゆきと岡田斗司夫と成田悠輔が互いの意見をぶつけ合って罵り合う動画です。<br>
+                  要するにただただおじさんがポケモン対戦で口論するだけの動画です。
+                </ul>
+              </div>
             </div>
           </section>
         </div>
       </section>
 
       <section class="text-center back_dark padding_top" id="section4">
-        <div class="front_text">Others<h2 class="back_text">Others</h2></div>
+        <div class="front_text">最後に<h2 class="back_text">最後に</h2></div>
         <div class="container">
 
           <div class="left_space">
 
-            <p>Zoom もくもく会</p>
+            <p>再び仲間と勉強</p>
             <img src="image/zoom-mokumoku.png" alt="">
 
-            <p>オフライン交流会</p>
+            <p>再度オフ会の勉強会に参加</p>
             <img src="image/ohurain.png" alt="">
           </div>
 
@@ -368,34 +343,67 @@
 
             <section class="flex">
               <div class="icon">
-                <i class="fas fa-chalkboard"></i>
+                <i class="far fa-thumbs-up"></i>
               </div>
               <div class="info">
-                <h4 class="top_info">Zoomもくもく会</h4>
-                <ul>
-                  <li>・所属サロン内で毎日21時にもくもく会を開催。</li>
-                  <li>・15分ほどで，学習の進捗状況、明日の目標など意見交換を行う。</li>
-                  <li>・毎日開催する事で，自分がサボらない環境をつくる。</li>
-                  <li>・目標を毎日宣言する事で、やらざるを得ない環境を作る。</li>
-                </ul>
-              <p class="red-bold pt_30">→自ら努力できる環境を工夫して作り上げていく事ができます。</p>
+                <h4 class="top_info">これから目指すエンジニア像</h4>
+                <div class="indent">
+                  <span class="red-bold">まずはフルスタックエンジニアになります</span><br>
+                  上司からこいつに任せておけばとりあえずコーディングは大丈夫と思って頂けてような、<br>
+                  <span class="red-bold">フロントからバックエンドやインフラといった幅広く携わる事が出来る</span>フルスタックなエンジニアになります。<br>
+                  その後は作業者から仕様書を書くなどより上流に携わっていきたいと考えています。
               </div>
             </section>
 
             <section class="flex">
               <div class="icon">
-                <i class="far fa-lightbulb"></i>
+                <i class="far fa-thumbs-up"></i>
               </div>
               <div class="info">
-                <h4 class="top_info">オフライン交流会</h4>
-                <ul>
-                  <li>・メンバーとプログラミングに関する情報交換をして刺激をたくさんもらえた。</li>
-                  <li>・誰かがつまずいている時はみんなでフォローし合う関係がより強固になった。</li>
-                  <li>・現役エンジニアの方とも専門的な話が出来た。</li>
-                  <li>・悩んでるのは1人じゃないと安心した。</li>
-                  <li>・次の交流会主催に立候補したが、コロナで開催は未定です。</li>
-                </ul>
-              <p class="red-bold pt_30">→物怖じしない性格、コミュニケーション能力があります</p>
+                <h4 class="top_info">自己PR</h4>
+                <div class="indents">
+                  <ul>
+                    <li>
+                      1.行動と
+                      結果を出す<br>
+                      <div class="indent">
+                        私には目的を達成する為に動く行動力があります。<br>
+                        公務員を辞めて<span class="red-bold">未経験から独学でエンジニアとして就職</span>して在籍した会社でたくさんの開発経験をしました。<br>
+                        Youtubeに挑戦してチャンネル登録者が<span class="red-bold">半年で2.3万人</span><br>
+                        Tiktokのフォロワーが<span class="red-bold">1年で1.8万人</span>を達成しました。<br>
+                        ただ行動するだけでなく、結果も出してきました。
+                      </div>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      2.目標に向かって日々努力が出来る<br>
+                      <div class="indent">
+                        私は夢や目標に向かって<span class="red-bold">コツコツと努力が出来ます。</span><br>
+                        前職時代は業務時間外でも、<span class="red-bold">業務で分からなかった事は家で調べてキャッチアップしながら、</span><br>
+                        そこで分かった事は他のメンバーとも共有して属人化も防いでいました。<br>
+                        Youtuberとしても再生数を伸ばす為に、他のチャンネルの研究や自分より数字を持っているYoutuberに相談しながら<br>
+                        <span class="red-bold">日々動画編集と撮影をして数字と向き合っていました。</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
+            <section class="flex">
+              <div class="icon">
+                <i class="fas fa-assistive-listening-systems"></i>
+              </div>
+              <div class="info">
+                <h4 class="top_info">ここまで見て頂きありがとうございます！</h4>
+                <div class="indent">
+                  Youtuberとしての挑戦は失敗に終わりましたが、<span class="red-bold">ここからの自分の人生は再びエンジニアとして捧げていきます！</span><br>
+                  もう何も後悔する事はなく、迷わずエンジニアとしてのキャリアを邁進している私は、<br>
+                  <span class="red-bold">はっきり言って強いです。</span><br>
+                  今までのエンジニアとして経歴を活かしていきながら、<span class="red-bold">新しくご縁のある所でもすぐにキャッチアップして活躍します！</span><br>
+                  よろしくお願い致します！
+                </div>
               </div>
             </section>
 
@@ -409,7 +417,7 @@
 
 </div>
 <footer class="footer_bottom">
-  <p>Copyright - 東野　陽生, 2020 All Rights Reserved.</p>
+  <p>Copyright - 東野　陽生, 2023 All Rights Reserved.</p>
 </footer>
 
 </body>

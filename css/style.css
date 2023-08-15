@@ -76,6 +76,12 @@ a.blue-link {
     text-decoration: underline;
 }
 
+a.red-link {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 li.red-link{
   color: red;
   font-weight: bold;
