@@ -677,6 +677,10 @@ body::before {
   margin-right: 10px;
 }
 
+.icon-youtube:before {
+  margin-right: 10px;
+}
+
 .sns{
   text-align: center;
   display: block;
