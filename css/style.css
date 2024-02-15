@@ -632,6 +632,7 @@ body::before {
 
 .profile_image{
   width: 70%;
+  height: 300px;
   margin: 20px auto;
 }
 
